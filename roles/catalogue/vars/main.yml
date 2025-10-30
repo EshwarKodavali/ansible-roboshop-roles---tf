@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.eshwar.fun
+MONGODB_HOST: mongodb-{{ env }}.eshwar.fun
