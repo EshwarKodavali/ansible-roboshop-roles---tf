@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.eshwar.fun
+MONGODB_HOST: mongodb-{{ env }}.eshwar.fun # mongodb-dev.eshwar.fun
 REDIS_HOST: redis-{{ env }}.eshwar.fun
-CATALOGUE_HOST: catalogue-{{ env }}.eshwar.fun
-CART_HOST: cart-{{ env }}.eshwar.fun
-USER_HOST: user-{{ env }}.eshwar.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.eshwar.fun
+CART_HOST: cart.backend-alb-{{ env }}.eshwar.fun
+USER_HOST: user.backend-alb-{{ env }}.eshwar.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.eshwar.fun
 MYSQL_HOST: mysql-{{ env }}.eshwar.fun
-SHIPPING_HOST: shipping-{{ env }}.eshwar.fun
-PAYMENT_HOST: payment-{{ env }}.eshwar.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.eshwar.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.eshwar.fun
