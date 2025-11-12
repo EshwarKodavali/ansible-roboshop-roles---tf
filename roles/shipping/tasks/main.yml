@@ -28,6 +28,8 @@
   - /app/db/schema.sql
   - /app/db/app-user.sql 
   - /app/db/master-data.sql
+  become: yes
+  become_user: root
 
 - name: systemd setup
   ansible.builtin.import_role:
